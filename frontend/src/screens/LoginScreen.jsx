@@ -7,14 +7,14 @@ const LoginScreen = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const submitHandler = async (e) => {
+  const handleSubmit = async (e) => {
    
   };
   return (
     <FormContainer>
       <h1>Sign In</h1>
 
-      <Form onSubmit={submitHandler}>
+      <Form onSubmit={handleSubmit}>
         <Form.Group className='my-2' controlId='email'>
           <Form.Label>Email Address</Form.Label>
           <Form.Control
