@@ -1,7 +1,8 @@
 {
-  "name": "vigorous-healthtech-task",
+  "name": "vigorous-healthtech-backend",
   "version": "1.0.0",
   "description": "vigorous healthtech private limited",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
