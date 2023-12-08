@@ -77,11 +77,6 @@ const LoginScreen = () => {
           New Customer?{' '}
           <Link to= '/register'>Register</Link>
         </Col>
-
-        <Col className='mx-0'>
-          Forgot Password?{' '}
-          <Link to= '/resetpassword'>Reset-Password</Link>
-        </Col>
       </Row>
     </FormContainer>
   );
