@@ -72,16 +72,16 @@ const logoutUser = asyncHandler(async (req, res) => {
 //@desc    update user Password
 //@route   PUT /api/users/updatepassword
 //@access  Private
-const updatePassword = asyncHandler(async (req, res) => {
-  const { email } = req.body;
+// const updatePassword = asyncHandler(async (req, res) => {
+//   const { email } = req.body;
 
-  const user = await User.findOne({ email });
+//   const user = await User.findOne({ email });
 
-  if (userExits) {
-    user.password = req.body.password;
-  }
+//   if (userExits) {
+//     user.password = req.body.password;
+//   }
 
-  const updatedPassword = await user.save();
-});
+//   const updatedPassword = await user.save();
+// });
 
 export { authUser, registerUser, logoutUser };
